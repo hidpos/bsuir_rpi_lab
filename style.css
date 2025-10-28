@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Inter";
+    src: url(Inter/static/Inter_24pt-Regular.ttf);
+}
+
+* {
+  all: revert;
+  margin: 0;
+  font-family: "Inter";
+  font-weight: lighter;
+}
+
+header {
+  background-color: #7761FF;
+  padding: 18px; 
+}
+
+.head_logo > img {
+  height: 50px;
+  margin-left: 60px;
+}
+
+.head_title{
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  vertical-align: 10px;
+}
+
+nav {
+  background-color: #6552DA;
+  padding: 14px; 
+}
+
+.first_span {
+  margin-left: 140px;
+}
+
+.login_span {
+  margin-left: 600px;
+}
+
+nav > span {
+  margin-left: 30px;
+  font-size: 20px;
+  vertical-align: -12px;
+}
+
+nav > img {
+  height: 40px;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+.search_course > img {
+  height: 20px;
+}
+
+.main_block {
+  font-size: 40px;
+}
+
+.main_block > img {
+  margin-top: 10px;
+  border-radius: 22px;
+}
+
+main {
+  margin-left: 73px;
+  margin-top: 50px;
+}
+
+.search_course {
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #7761FF;
+  vertical-align: middle;
+}
+
+.search_course > img {
+  margin-top: 15px;
+  margin-left: 250px;
+  margin-bottom: 15px;
+  margin-right: 19px;
+}
+
+.search_course > b {
+  font-weight: bold;
+  margin-left: 20px;
+  vertical-align: 17px;
+}
+
+.sec_block {
+  vertical-align:top;
+  margin-left: 170px;
+}
+
+table {
+  text-align: left;
+}
+
+th {
+  vertical-align: top;
+}
+
+.popular_block {
+  
+}
