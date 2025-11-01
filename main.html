@@ -32,7 +32,7 @@
     </nav>
 
     <main>
-    <table>
+    <table class="main_bl">
         <tr>
         <th><span class="main_block">
             <b style="font-weight: bold;">Начните учиться сегодня:<br>
@@ -47,8 +47,37 @@
                 <b>Найти курс</b>
                 <img src="images/loopa.png" alt="">
             </span>
-            <span class="popular_block">
 
+            <span class="popular_block">
+                <span style="font-size: 25px;" class="popular_block_title">
+                    Популярные категории</span>
+                
+                    
+                <table class="popular_table" style="width: 400px;">
+                    <tr>
+                        <th style="width: 200px;">
+                            <span>Программирование</span>
+                            <img src="images/programming.jpg" alt="" id="popular_img">
+                        </th>
+                        <th>
+                            <span>Дизайн</span>
+                            <img src="images/design.jpg" alt="" id="popular_img">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>Маркетинг</span>
+                            <img src="images/marketing.png" alt="" id="popular_img">
+                        </th>
+                        <th>
+                            <span>Бизнес</span>
+                            <img src="images/bisness.jpg" alt="" id="popular_img">
+                        </th>
+                    </tr>
+                </table>
+                <button id="other_button" style="height: 45px;" onclick="reLink()">
+                    <span>Смотреть другие</span>
+                </button>
             </span>
         </span>
         </th>
@@ -56,8 +85,61 @@
     </table>
     </main>
 
-    <footer>
+    <div class="reviews">
+        <table>
+            <tr class="reviews_tr">
+                <td>
+                    <img src="images/rew1.png" alt="" id="rewiew_image">
+                </td>
+                <td>
+                    Отличный каталог! Искала курсы по графическому дизайну — всё интуитивно понятно. Спасибо!
+                    <br><img src="images/five-stars-7292866_1280.png" alt="" style="height: 25px;">
+                </td>
+                <td>
+                    <img src="images/rew2.png" alt="" id="rewiew_image">
+                </td>
+                <td>
+                    Пользуюсь "ЛегкоВУчении" не в первый раз. Всегда нахожу для себя что-то новое и интересное.
+                    <br><img src="images/five-stars-7292866_1280.png" alt="" style="height: 25px;">
+                </td>
+                <td>
+                    <img src="images/rew3.png" alt="" id="rewiew_image">
+                </td>
+                <td>
+                    Очень приятные преподаватели, всегда во всем помогут. Рекомендую!
+                    <br><img src="images/five-stars-7292866_1280.png" alt="" style="height: 25px;">
+                </td>
+                <td>
+                    <img src="images/rew4.png" alt="" id="rewiew_image">
+                </td>
+                <td style="font-size: 12px;">
+                    Долго не мог определиться с направлением. Благодаря “ЛегкоВУчении” сделал  выбор. Одно удовольствие!
+                    <br><img src="images/five-stars-7292866_1280.png" alt="" style="height: 25px;">
+                </td>
+            </tr>
+        </table>
+    </div>
 
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <span style="margin-left: 60px;"> О компании </span>
+                    <span> Помощь </span>
+                    <span> Контакты </span>
+                    <img src="images/email_icon.png" alt="" class="footer_f_img">
+                    <img src="images/tg_icon.png" alt="">
+                    <img src="images/vk_icon.png" alt="">
+                </td>
+                <td>
+                    <span style="margin-left: 10px; 
+                                line-height: 2px;
+                                vertical-align: 0px;">
+                        Все права защищены<br>&nbsp“ЛегкоВУчении” 2025
+                    </span>
+                </td>
+            </tr>
+        </table>
     </footer>
 </body>
 </html>

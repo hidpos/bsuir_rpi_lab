@@ -95,7 +95,7 @@ main {
   margin-left: 170px;
 }
 
-table {
+.main_bl {
   text-align: left;
 }
 
@@ -104,5 +104,77 @@ th {
 }
 
 .popular_block {
-  
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #7761FF;
+  margin-left: 170px;
+  vertical-align: -30px;
+  margin-top: 30px;
+}
+
+.popular_block_title {
+  font-weight: bold;
+  margin-left: 64px;
+  margin-right: 64px;
+  vertical-align: -50px;
+}
+
+.popular_table {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#popular_img {
+  margin-top: 5px;
+  width: 140px;
+  border-radius: 13px;
+}
+
+#other_button {
+  margin-left: 110px;
+  vertical-align: 50px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+}
+
+#other_button > span {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+footer {
+  background-color: #7761FF;
+  padding: 20px; 
+  font-size: 22px;
+}
+
+td > img {
+  height: 50px;
+  vertical-align: top;
+}
+
+.footer_f_img {
+  margin-left: 530px;
+}
+
+td > span {
+  margin-left: 50px;
+  vertical-align: -13px;
+}
+
+.reviews {
+  background-color: #6552DA;
+  padding: 30px; 
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#rewiew_image {
+  height: 80px;
+}
+
+.reviews_tr > td {
+  padding-left: 13px;
 }
