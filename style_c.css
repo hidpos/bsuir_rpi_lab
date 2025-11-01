@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Inter";
+    src: url(Inter/static/Inter_24pt-Regular.ttf);
+}
+
+* {
+  all: revert;
+  margin: 0;
+  font-family: "Inter";
+  font-weight: lighter;
+}
+
+header {
+  background-color: #7761FF;
+  padding: 18px; 
+}
+
+.head_logo > img {
+  height: 50px;
+  margin-left: 60px;
+}
+
+.head_title{
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  vertical-align: 10px;
+}
+
+nav {
+  background-color: #6552DA;
+  padding: 14px; 
+}
+
+.first_span {
+  margin-left: 140px;
+}
+
+.login_span {
+  margin-left: 600px;
+}
+
+nav > span {
+  margin-left: 30px;
+  font-size: 20px;
+  vertical-align: -12px;
+}
+
+nav > img {
+  height: 40px;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+th {
+    font-weight: lighter;
+}
+
+footer {
+  background-color: #7761FF;
+  padding: 20px; 
+  font-size: 22px;
+}
+
+td > img {
+  height: 50px;
+  vertical-align: top;
+}
+
+.footer_f_img {
+  margin-left: 530px;
+}
+
+td > span {
+  margin-left: 50px;
+  vertical-align: -13px;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button {
+  background-color: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.main_table {
+    margin-left: 60px;
+}
+
+tr > th {
+    padding: 10px;
+}
